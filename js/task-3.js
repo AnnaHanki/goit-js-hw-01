@@ -1,4 +1,4 @@
-function getShippingMessage(content, padding, border) {
+function getElementWidth(content, padding, border) {
     // Перетворити значення на числа, відкидаючи "px" з кінця кожного значення
     const contentWidth = parseFloat(content);
     const paddingWidth = parseFloat(padding);
